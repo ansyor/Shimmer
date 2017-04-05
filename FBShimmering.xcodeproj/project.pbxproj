@@ -27,6 +27,7 @@
 		1899D27418BD201B0035A1B0 /* FBShimmering.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1899D26D18BD1D070035A1B0 /* FBShimmering.h */; };
 		1899D27518BD201B0035A1B0 /* FBShimmeringView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1899D26818BD1CFB0035A1B0 /* FBShimmeringView.h */; };
 		1899D27618BD201B0035A1B0 /* FBShimmeringLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1899D26A18BD1CFB0035A1B0 /* FBShimmeringLayer.h */; };
+		6D5E08999914CCFF3A7F93C3 /* Pods_FBShimmering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3E3C8F89F8042836811658 /* Pods_FBShimmering.framework */; };
 		ECEA610218A49C620064AFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEA610118A49C620064AFF4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,12 +57,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0CE3E3D661DE1688B7CB19BC /* Pods-FBShimmering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBShimmering.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBShimmering/Pods-FBShimmering.release.xcconfig"; sourceTree = "<group>"; };
 		1899D26718BD1CFB0035A1B0 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
 		1899D26818BD1CFB0035A1B0 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
 		1899D26918BD1CFB0035A1B0 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
 		1899D26A18BD1CFB0035A1B0 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
 		1899D26D18BD1D070035A1B0 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		2655C4BA9452CE3DC7B90602 /* Pods-FBShimmering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBShimmering.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBShimmering/Pods-FBShimmering.debug.xcconfig"; sourceTree = "<group>"; };
 		5CEF702BB5574A90B448BF09 /* libPods-FBShimmeringTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FBShimmeringTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3E3C8F89F8042836811658 /* Pods_FBShimmering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBShimmering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8BB5B318A5A1EE00EB2793 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EC8BB5B418A5A1F500EB2793 /* PATENTS */ = {isa = PBXFileReference; lastKnownFileType = text; path = PATENTS; sourceTree = "<group>"; };
 		EC8BB5B518A5A30700EB2793 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = CONTRIBUTING.md; sourceTree = "<group>"; };
@@ -79,12 +83,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECEA610218A49C620064AFF4 /* Foundation.framework in Frameworks */,
+				6D5E08999914CCFF3A7F93C3 /* Pods_FBShimmering.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A4902972424D14BE4B6F25D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2655C4BA9452CE3DC7B90602 /* Pods-FBShimmering.debug.xcconfig */,
+				0CE3E3D661DE1688B7CB19BC /* Pods-FBShimmering.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ECEA60F518A49C620064AFF4 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +109,7 @@
 				ECEA610318A49C620064AFF4 /* FBShimmering */,
 				ECEA610018A49C620064AFF4 /* Frameworks */,
 				ECEA60FF18A49C620064AFF4 /* Products */,
+				3A4902972424D14BE4B6F25D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +128,7 @@
 				ECEA610F18A49C620064AFF4 /* XCTest.framework */,
 				ECEA611218A49C620064AFF4 /* UIKit.framework */,
 				5CEF702BB5574A90B448BF09 /* libPods-FBShimmeringTests.a */,
+				BC3E3C8F89F8042836811658 /* Pods_FBShimmering.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,10 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECEA612118A49C620064AFF4 /* Build configuration list for PBXNativeTarget "FBShimmering" */;
 			buildPhases = (
+				E18137947A59C9E8C204FCF4 /* [CP] Check Pods Manifest.lock */,
 				ECEA60FA18A49C620064AFF4 /* Sources */,
 				ECEA60FB18A49C620064AFF4 /* Frameworks */,
 				ECEA60FC18A49C620064AFF4 /* CopyFiles */,
 				ECEA612718A49DDD0064AFF4 /* ShellScript */,
+				1766AAF523C3B09B5E8B15F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +205,36 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1766AAF523C3B09B5E8B15F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBShimmering/Pods-FBShimmering-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18137947A59C9E8C204FCF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		ECEA612718A49DDD0064AFF4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,6 +354,7 @@
 		};
 		ECEA612218A49C620064AFF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2655C4BA9452CE3DC7B90602 /* Pods-FBShimmering.debug.xcconfig */;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
@@ -322,6 +371,7 @@
 		};
 		ECEA612318A49C620064AFF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE3E3D661DE1688B7CB19BC /* Pods-FBShimmering.release.xcconfig */;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
